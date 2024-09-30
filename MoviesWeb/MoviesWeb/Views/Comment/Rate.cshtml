@@ -1,0 +1,228 @@
+﻿@model RatingViewModel
+
+@{
+    ViewData["Title"] = "Rate";
+    var userId = TempData["userId"];
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0; 
+            height: 100vh;
+        }
+
+        .hero {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 50px 0;
+            text-align: center;
+            margin-bottom: 20px auto;
+            border-radius: 0 0 15px 15px;
+        }
+
+            .hero h1 {
+                font-size: 2.5rem;
+                font-weight: bold;
+                color: #ffc107;
+                margin-bottom: 0.5rem;
+            }
+
+            .hero p {
+                font-size: 1.25rem;
+                color: #ddd;
+            }
+
+        .bar-container {
+            width: 100%;
+            background-color: #333;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+            .bar-container div {
+                height: 18px;
+                background-color: #4CAF50;
+            }
+
+        .checked {
+            color: orange;
+        }
+
+        .side, .middle {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .side {
+            width: 10%;
+            text-align: left;
+        }
+
+        .middle {
+            width: 70%;
+            text-align: center;
+        }
+
+        .right {
+            width: 20%;
+            text-align: right;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .comment-section {
+            margin-top: 20px;
+        }
+
+        .comment-item {
+            border-bottom: 1px solid #444;
+            padding: 10px 0;
+        }
+
+            .comment-item:last-child {
+                border-bottom: none;
+            }
+
+        .btn {
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333;
+                border-color: #c82333;
+            }
+
+        .btn-outline-danger {
+            color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            .btn-outline-danger:hover {
+                background-color: #dc3545;
+                color: #fff;
+            }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Rating</h1>
+            <p>@Model.AverageRating average based on @Model.TotalRatings reviews.</p>
+        </div>
+
+        <div class="text-center">
+            <span class="fa fa-star @(Model.AverageRating >= 1 ? "checked" : "")"></span>
+            <span class="fa fa-star @(Model.AverageRating >= 2 ? "checked" : "")"></span>
+            <span class="fa fa-star @(Model.AverageRating >= 3 ? "checked" : "")"></span>
+            <span class="fa fa-star @(Model.AverageRating >= 4 ? "checked" : "")"></span>
+            <span class="fa fa-star @(Model.AverageRating >= 5 ? "checked" : "")"></span>
+        </div>
+
+        <hr style="border:3px solid #f1f1f1">
+
+        <div class="row">
+            <div class="side"><div>5 star</div></div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-5" style="width: @(Model.TotalRatings > 0 ? (100.0 * Model.Count5Star / Model.TotalRatings) : 0)%"></div>
+                </div>
+            </div>
+            <div class="side right"><div>@Model.Count5Star</div></div>
+
+            <div class="side"><div>4 star</div></div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-4" style="width: @(Model.TotalRatings > 0 ? (100.0 * Model.Count4Star / Model.TotalRatings) : 0)%"></div>
+                </div>
+            </div>
+            <div class="side right"><div>@Model.Count4Star</div></div>
+
+            <div class="side"><div>3 star</div></div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-3" style="width: @(Model.TotalRatings > 0 ? (100.0 * Model.Count3Star / Model.TotalRatings) : 0)%"></div>
+                </div>
+            </div>
+            <div class="side right"><div>@Model.Count3Star</div></div>
+
+            <div class="side"><div>2 star</div></div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-2" style="width: @(Model.TotalRatings > 0 ? (100.0 * Model.Count2Star / Model.TotalRatings) : 0)%"></div>
+                </div>
+            </div>
+            <div class="side right"><div>@Model.Count2Star</div></div>
+
+            <div class="side"><div>1 star</div></div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-1" style="width: @(Model.TotalRatings > 0 ? (100.0 * Model.Count1Star / Model.TotalRatings) : 0)%"></div>
+                </div>
+            </div>
+            <div class="side right"><div>@Model.Count1Star</div></div>
+        </div>
+
+        <div class="comment-section">
+            <h2>Comments</h2>
+            @foreach (var comment in Model.Comments)
+            {
+                <div class="comment-item">
+                    <p>
+                        <strong>@comment.MovieName</strong>
+                        @if (userId.Equals(comment.UserID))
+                        {
+                            <a href="@Url.Action("DeleteCommentConfirmed", new { id = comment.ID })" class="btn btn-danger">Delete</a> 
+                            <a href="@Url.Action("Edit", new { id = comment.ID, UserID = comment.UserID , MovieID = comment.MovieID })" class="btn btn-danger">Change</a>
+                        }
+                    </p>
+                 
+                    <p><em>Rated @comment.Rating stars by @comment.UserName on @comment.Date.ToString("yyyy-MM-dd")</em></p>
+                    <p>@comment.Content</p>
+                </div>
+            }
+        </div>
+
+        <div class="text-center btn-group">
+            <a href="@Url.Action("Create", new { movieId = Model.MovieID, userId = Model.UserID })" class="btn btn-outline-danger">Comment</a>
+            <a asp-action="Index" asp-controller="Movie" class="btn btn-outline-danger">Back to List</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿@model MoviesWeb.Models.BuyShow
+
+@{
+    ViewData["Title"] = "Watch";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MoviesWeb.styles.css" asp-append-version="true" />
+    <style>
+        :root {
+            --bg-color: #1d1d1d;
+            --text-color: #eaeaea;
+            --header-bg-color: #f44336;
+            --header-text-color: #fff;
+            --btn-bg-color: #e91e63; 
+            --btn-hover-bg-color: #d81b60;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .title {
+            color: var(--header-text-color);
+            background-color: var(--header-bg-color);
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .title-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .title-container h2 {
+                font-size: 2rem;
+                font-weight: bold;
+                color: var(--text-color);
+                margin-bottom: 10px;
+            }
+
+            .title-container p {
+                font-size: 1.2rem;
+                color: var(--text-color);
+            }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+            .video-container iframe,
+            .video-container video {
+                width: 100%;
+                max-width: 1000px; 
+                height: 1000px; 
+                border: none;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+            }
+
+        .btn-primary {
+            background-color: var(--btn-bg-color);
+            border-color: var(--btn-bg-color);
+            font-weight: bold;
+        }
+
+            .btn-primary:hover {
+                background-color: var(--btn-hover-bg-color);
+                border-color: var(--btn-hover-bg-color);
+            }
+
+        .back-btn {
+            display: block;
+            margin: 30px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">@ViewData["Title"]</h1>
+
+        <div class="title-container">
+            <h2>@(Model.MovieName ?? Model.ShowName)</h2>
+            <p>
+                @if (Model.MovieName != null)
+                {
+                    <strong>Movie:</strong>
+                }
+                else if (Model.ShowName != null)
+                {
+                    <strong>Show:</strong>
+                }
+            </p>
+        </div>
+
+        <div class="video-container">
+            @if (!string.IsNullOrEmpty(Model.TrailerLinkMovie) || !string.IsNullOrEmpty(Model.TrailerLinkShow))
+            {
+                var trailerLink = Model.TrailerLinkMovie ?? Model.TrailerLinkShow;
+                var isYouTube = trailerLink.Contains("youtube.com");
+
+                if (isYouTube)
+                {
+                    var videoId = ExtractYouTubeVideoId(trailerLink);
+                    if (videoId != null)
+                    {
+                        var embedUrl = $"https://www.youtube.com/embed/{videoId}";
+
+                        <iframe src="@(embedUrl)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    }
+                    else
+                    {
+                        <p>Invalid YouTube video URL.</p>
+                    }
+                }
+                else
+                {
+                    <video controls>
+                        <source src="@(trailerLink)" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                }
+            }
+            else
+            {
+                <p>No trailer available.</p>
+            }
+        </div>
+
+        <div class="back-btn">
+            <a href="@Url.Action("Index")" class="btn btn-primary">Back to List</a>
+        </div>
+    </div>
+</body>
+</html>
+
+@functions {
+    private string ExtractYouTubeVideoId(string url)
+    {
+        var regex = new System.Text.RegularExpressions.Regex(@"(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:embed\/|v\/|v=|watch\?v=)|youtu\.be\/)([^""&?\/\s]{11})");
+        var match = regex.Match(url);
+        return match.Success ? match.Groups[1].Value : null;
+    }
+}

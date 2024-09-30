@@ -1,0 +1,181 @@
+﻿@model IEnumerable<MoviesWeb.Models.BuyShow>
+
+@{
+    ViewData["Title"] = "Trailer";
+    var displayColumnHeader = "Name";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MoviesWeb.styles.css" asp-append-version="true" />
+    <style>
+        :root {
+            --card-bg-color: #1e1e1e;
+            --card-text-color: #fff;
+            --card-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            --btn-padding: 10px 20px;
+            --btn-margin: 5px;
+            --btn-bg-color: #dc3545;
+            --btn-hover-bg-color: #c82333;
+            --btn-border-color: #dc3545;
+        }
+
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0; 
+            padding: 0;
+            height: 100vh;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .hero {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 50px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 0 0 15px 15px;
+        }
+
+            .hero h1 {
+                font-size: 3rem;
+                font-weight: bold;
+                color: #ffc107;
+                margin-bottom: 0.5rem;
+            }
+
+            .hero p {
+                font-size: 1.25rem;
+                color: #ddd;
+            }
+
+
+        .card {
+            background-color: var(--card-bg-color);
+            border: none;
+            border-radius: 0;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+            }
+
+        .card-img-top {
+            height: 400px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .card-img-overlay {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: left;
+            padding: 15px;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            margin-bottom: 5px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+        }
+
+        .total-sum {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--btn-bg-color);
+        }
+
+        .btn-group {
+            margin-top: 20px;
+        }
+
+        .text-center {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Shopping Cart</h1>
+            <p>Review and purchase your selected items</p>
+        </div>
+
+        @if (Model.Any())
+        {
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    var base64ImageMovie = item.ImageUrlMovie != null ? Convert.ToBase64String(item.ImageUrlMovie) : null;
+                    var imageSrcMovie = base64ImageMovie != null ? $"data:image/jpeg;base64,{base64ImageMovie}" : "https://via.placeholder.com/300x300";
+
+                    var base64ImageShow = item.ImageUrlShow != null ? Convert.ToBase64String(item.ImageUrlShow) : null;
+                    var imageSrcShow = base64ImageShow != null ? $"data:image/jpeg;base64,{base64ImageShow}" : "https://via.placeholder.com/300x300";
+
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            @if (!string.IsNullOrEmpty(item.MovieName))
+                            {
+                                <img src="@imageSrcMovie" class="card-img-top" alt="Movie Image">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">@item.MovieName</h5>
+                                    <p class="card-text">Amount: @item.Amount</p>
+                                    <a href="@Url.Action("Watch", new { id = item.Id , movieId=item.Movie_Id , showId=item.Show_Id })" class="btn btn-outline-info">Watch</a>
+                                </div>
+                            }
+                            else if (!string.IsNullOrEmpty(item.ShowName))
+                            {
+                                <img src="@imageSrcShow" class="card-img-top" alt="Show Image">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title">@item.ShowName</h5>
+                                    <p class="card-text">Amount: @item.Amount</p>
+                                    <a href="@Url.Action("Watch", new { id = item.Id , movieId=item.Movie_Id , showId=item.Show_Id })" class="btn btn-outline-info">Watch</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="text-center mt-4">
+                    <a asp-action="Index" class="btn btn-primary m-2">Back to List</a>
+                </div>
+        }
+        else
+        {
+            <div class="text-center">
+                <p>Your cart is empty.</p>
+                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+            </div>
+        }
+    </div>
+</body>
+</html>

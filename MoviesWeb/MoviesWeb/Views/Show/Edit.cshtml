@@ -1,0 +1,126 @@
+﻿@model MoviesWeb.Models.Show
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/logo-large.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .kontainer {
+            background-color: white;
+            padding: 40px;
+            margin: 60px auto;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            color: black;
+            font-size: 20px;
+        }
+
+        .h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .form-control {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            width: 200px;
+        }
+
+        .text-center a {
+            color: black;
+            cursor: pointer;
+            margin-left: 10px;
+            text-decoration: underline;
+        }
+
+        .text-danger {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container kontainer">
+        <h1 class="h1">Edit Movie</h1>
+
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Release_date" class="control-label"></label>
+                <input asp-for="Release_date" class="form-control" />
+                <span asp-validation-for="Release_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Genre" class="control-label"></label>
+                <input asp-for="Genre" class="form-control" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <div class="text-center">
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

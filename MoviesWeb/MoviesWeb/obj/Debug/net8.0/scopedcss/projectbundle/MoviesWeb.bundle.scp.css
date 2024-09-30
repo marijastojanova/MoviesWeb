@@ -1,0 +1,78 @@
+/* _content/MoviesWeb/Views/Movie/Index.cshtml.rz.scp.css */
+/* _content/MoviesWeb/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Custom styles to make navigation links visible on colorful backgrounds */
+.brandd[b-vj26qqtmd7], .linkk[b-vj26qqtmd7] {
+    color: #ffc107 !important;
+    font-weight: bold;
+}
+
+.navv[b-vj26qqtmd7] {
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+}
+
+.brandd[b-vj26qqtmd7] {
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+
+.navv .linkk[b-vj26qqtmd7] {
+    margin-left: 15px;
+    font-size: 1.2rem; 
+}
+
+.baner[b-vj26qqtmd7] {
+    height: 100vh;
+    background-image: url(/images/movies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+    .baner[b-vj26qqtmd7]:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      
+    }
+
+.baner-text[b-vj26qqtmd7] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); 
+    z-index: 2; 
+}
+
+.baner h1[b-vj26qqtmd7] {
+    font-size: 4rem;
+}
+
+footer[b-vj26qqtmd7] {
+    margin: 0 !important;
+    background-color: firebrick;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.btn-outline-danger[b-vj26qqtmd7] {
+    color: firebrick;
+    border-color: firebrick;
+}
+
+    .btn-outline-danger:hover[b-vj26qqtmd7] {
+        background-color: firebrick;
+        color: white;
+    }
+/* _content/MoviesWeb/Views/Show/Index.cshtml.rz.scp.css */

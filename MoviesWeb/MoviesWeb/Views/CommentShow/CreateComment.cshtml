@@ -1,0 +1,128 @@
+﻿@model MoviesWeb.Models.RatingViewModelShow
+
+@{
+    ViewData["Title"] = "CreateComment";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/logo-large.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0; 
+            padding: 0; 
+            height: 100vh;
+        }
+
+        .kontainer {
+            background-color: #2c2c2c;
+            padding: 40px;
+            margin: 60px auto;
+            border-radius: 10px;
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            margin-left: 800px;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .form-control {
+            width: 350px;
+            height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            background-color: #444;
+            color: white;
+        }
+
+            .form-control::placeholder {
+                color: #aaa;
+            }
+
+        .btn-primary {
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            width: 175px;
+        }
+
+        .text-danger {
+            color: #dc3545;
+        }
+
+        .text-center a {
+            color: #1e90ff;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container kontainer">
+        <h1>Create Comment</h1>
+        <h4>Comment</h4>
+        <hr />
+        <form asp-action="CreateComment">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Show_Id" />
+            <input type="hidden" asp-for="User_Id" />
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rating" class="control-label"></label>
+                <input asp-for="Rating" class="form-control" />
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <textarea asp-for="Content" class="form-control"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+                <a asp-action="Index" asp-controller="Show">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

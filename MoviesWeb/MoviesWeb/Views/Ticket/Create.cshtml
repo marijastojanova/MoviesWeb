@@ -1,0 +1,147 @@
+﻿@model MoviesWeb.Models.Ticket
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/logo-large.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            background-image: url(/images/proba.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .gradient-form {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.7); 
+        }
+
+        .kontainer {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 1000px;
+            width: 100%;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            color: black;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h4 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-primary {
+            border: none;
+            color: white;
+            background-color: orangered;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, color 0.3s;
+            cursor: pointer;
+        }
+
+            .btn-primary:hover {
+                background-color: darkorange;
+            }
+
+        .text-center a {
+            color: #17a2b8;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section class="gradient-form">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-8 col-lg-6 col-xl-5">
+                    <div class="kontainer">
+                        <h1>@ViewData["Title"]</h1>
+                        <h4>Ticket Creation</h4>
+                        <hr />
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="watch_movie" class="control-label"></label>
+                                <input asp-for="watch_movie" class="form-control" />
+                                <span asp-validation-for="watch_movie" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Amount" class="control-label"></label>
+                                <input asp-for="Amount" class="form-control" />
+                                <span asp-validation-for="Amount" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Movie_id" class="control-label"></label>
+                                <input asp-for="Movie_id" class="form-control" />
+                                <span asp-validation-for="Movie_id" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="User_id" class="control-label"></label>
+                                <input asp-for="User_id" class="form-control" />
+                                <span asp-validation-for="User_id" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Id" class="control-label"></label>
+                                <input asp-for="Id" class="form-control" />
+                                <span asp-validation-for="Id" class="text-danger"></span>
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="submit" value="Create" class="btn-primary" />
+                            </div>
+                            <div class="text-center">
+                                <a asp-action="Index">Back to List</a>
+                                <br />
+                                <a asp-action="Index" asp-controller="Movie">Back to Movies</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

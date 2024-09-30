@@ -1,0 +1,886 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\showrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\showrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\showcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\showcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\showdevcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\showdevcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\moviewebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\moviewebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\commentwebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\commentwebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\commentshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\commentshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\ishowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\ishowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\ratingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\ratingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\buyshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\buyshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\buyticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\buyticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\commentshowwebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\commentshowwebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\commentshowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\commentshowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\icommentshowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\icommentshowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\movieapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\movieapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\controllers\\userwebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\userwebcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\commentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\commentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\movieapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\movieapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\authentication\\jwttokenconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\authentication\\jwttokenconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\authentication\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\authentication\\korisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\models\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\authentication\\jwtauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\authentication\\jwtauthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\authentication\\ikorisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\authentication\\ikorisnikservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marija\\AppData\\Local\\Temp\\.dbeaver-temp2668304037831454706\\dbeaver-json\\file9077292484253015135.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\authentication\\security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\authentication\\security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|c:\\users\\marija\\downloads\\movieapiposledno\\movieapi\\movieapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7917000-826D-4D00-9037-A216C07B6AD5}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BuyShow.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\BuyShow.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\BuyShow.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\BuyShow.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\BuyShow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T10:51:44.593Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:06:13.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\ShowController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\ShowController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\ShowController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\ShowController.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAswEcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:14:41.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\TicketController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwCAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T07:26:37.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShowDevController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\ShowDevController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\ShowDevController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\ShowDevController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\ShowDevController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAcwIMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:18:25.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwDIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T12:10:30.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T08:59:38.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\MovieRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\MovieRepository.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAwwE8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T07:25:16.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ShowRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\ShowRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ShowRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\ShowRepository.cs",
+              "ViewState": "AQIAABABAAAAAAAAAAAiwPwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:04:02.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovieWebController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\MovieWebController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\MovieWebController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\MovieWebController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\MovieWebController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:36:27.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAUwDsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:31:58.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:48:10.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommentWebController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentWebController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\CommentWebController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentWebController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\CommentWebController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:12:15.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CommentShowController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentShowController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\CommentShowController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentShowController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\CommentShowController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:12:32.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\CommentRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\CommentRepository.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAowGwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:39:48.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAowEkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:47:12.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\User.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T08:48:39.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\TicketRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\TicketRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:56:19.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:35:38.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAiwJ8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:29:59.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IShowRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IShowRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\IShowRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IShowRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\IShowRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:04:15.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Show.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\Show.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Show.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\Show.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:02:37.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Genre.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:09:05.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:30:29.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:29:07.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RatingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\RatingViewModel.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\RatingViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\RatingViewModel.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\RatingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T09:08:11.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BuyTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\BuyTicket.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\BuyTicket.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\BuyTicket.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\BuyTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T06:33:41.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CommentShowWebController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentShowWebController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\CommentShowWebController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\CommentShowWebController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\CommentShowWebController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:12:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IMovieRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\IMovieRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:31:55.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CommentShowRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\CommentShowRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\CommentShowRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\CommentShowRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\CommentShowRepository.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAwEwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:05:43.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Comment.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:52:49.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\GenreRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\GenreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:10:20.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICommentShowRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ICommentShowRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\ICommentShowRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ICommentShowRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\ICommentShowRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:05:18.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\IGenreRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\IGenreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T12:10:37.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Program.cs",
+              "RelativeToolTip": "MovieAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:11:32.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MovieAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
+              "RelativeDocumentMoniker": "MovieAPI\\MovieAPI.csproj",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
+              "RelativeToolTip": "MovieAPI\\MovieAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T07:36:23.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserWebController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\UserWebController.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Controllers\\UserWebController.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Controllers\\UserWebController.cs",
+              "RelativeToolTip": "MovieAPI\\Controllers\\UserWebController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAIwHAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T07:57:33.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ITicketRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\ITicketRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:36:31.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T10:21:58.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ConnectionStrings.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\ConnectionStrings.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\ConnectionStrings.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\ConnectionStrings.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\ConnectionStrings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:24:03.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CommentShow.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\CommentShow.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\CommentShow.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\CommentShow.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\CommentShow.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:04:51.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Repository\\ICommentRepository.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Repository\\ICommentRepository.cs",
+              "RelativeToolTip": "MovieAPI\\Repository\\ICommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:40:10.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\appsettings.json",
+              "RelativeToolTip": "MovieAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T07:18:08.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MovieAPI.http",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\MovieAPI.http",
+              "RelativeDocumentMoniker": "MovieAPI\\MovieAPI.http",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\MovieAPI.http",
+              "RelativeToolTip": "MovieAPI\\MovieAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-07T10:56:02.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "JwtTokenConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\JwtTokenConfig.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Authentication\\JwtTokenConfig.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\JwtTokenConfig.cs",
+              "RelativeToolTip": "MovieAPI\\Authentication\\JwtTokenConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:47:41.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\Ticket.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T08:59:11.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KorisnikService.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\KorisnikService.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Authentication\\KorisnikService.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\KorisnikService.cs",
+              "RelativeToolTip": "MovieAPI\\Authentication\\KorisnikService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:05:14.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "VerifyEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\VerifyEmailViewModel.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\VerifyEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Models\\VerifyEmailViewModel.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\VerifyEmailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T10:21:11.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IKorisnikService.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\IKorisnikService.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Authentication\\IKorisnikService.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\IKorisnikService.cs",
+              "RelativeToolTip": "MovieAPI\\Authentication\\IKorisnikService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:56:22.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "file9077292484253015135.json",
+              "DocumentMoniker": "C:\\Users\\Marija\\AppData\\Local\\Temp\\.dbeaver-temp2668304037831454706\\dbeaver-json\\file9077292484253015135.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.dbeaver-temp2668304037831454706\\dbeaver-json\\file9077292484253015135.json",
+              "ToolTip": "C:\\Users\\Marija\\AppData\\Local\\Temp\\.dbeaver-temp2668304037831454706\\dbeaver-json\\file9077292484253015135.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.dbeaver-temp2668304037831454706\\dbeaver-json\\file9077292484253015135.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T09:04:57.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Security.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\Security.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Authentication\\Security.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\Security.cs",
+              "RelativeToolTip": "MovieAPI\\Authentication\\Security.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T07:26:28.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MovieAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\appsettings.Development.json",
+              "RelativeToolTip": "MovieAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T10:58:24.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "JwtAuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\JwtAuthManager.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Authentication\\JwtAuthManager.cs",
+              "ToolTip": "C:\\Users\\Marija\\Downloads\\MovieAPIposledno\\MovieAPI\\MovieAPI\\Authentication\\JwtAuthManager.cs",
+              "RelativeToolTip": "MovieAPI\\Authentication\\JwtAuthManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwCsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:46:52.639Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

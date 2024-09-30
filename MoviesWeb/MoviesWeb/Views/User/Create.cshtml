@@ -1,0 +1,171 @@
+﻿@model MoviesWeb.Models.User
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/logo-large.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            height: 100vh;
+            display: flex;
+            background-color: #121212;
+            color: white;
+        }
+
+        .login-contain {
+            width: 40%;
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+
+        .login-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-image: url(/images/movies.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffc107;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+            .form-control::placeholder {
+                color: #bbb;
+            }
+
+        .btn-orange {
+            border: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, color 0.3s;
+            cursor: pointer;
+            text-align: center;
+        }
+
+            .btn-orange:hover {
+                background-color: darkblue;
+            }
+
+       
+
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        h3, p {
+            position: relative;
+            z-index: 2;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container login-contain">
+        <h1 class="h1">Sign Up</h1>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input asp-for="Administrator" class="form-check-input" /> @Html.DisplayNameFor(model => model.Administrator)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="First Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" value="Create an account" class="btn-orange" />
+            </div>
+            <div class="text-center">
+                <a asp-action="Index" asp-controller="Home" style="color: #17a2b8;">Back</a>
+            </div>
+        </form>
+    </div>
+    <div class="login-content">
+        <div class="overlay"></div> <!-- Add this overlay -->
+        <h3 class="display4 font-weight-bolder text-dark" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">MoviesWeb</h3>
+        <p class="font-weight-bolder text-dark opacity-70" style="color: #ffffff; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);">
+            Welcome! <br />
+        </p>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

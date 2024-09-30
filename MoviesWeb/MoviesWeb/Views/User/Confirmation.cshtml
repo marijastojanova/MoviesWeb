@@ -1,0 +1,85 @@
+﻿@model MoviesWeb.Models.User
+
+@{
+    ViewData["Title"] = "Confirmation";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/logo-large.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0; 
+        }
+
+        .cc {
+            background-color: #1e1e1e; 
+            padding: 40px;
+            margin-top: 60px;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: #6200ea;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+            .btn-primary:hover {
+                background-color: #3700b3; 
+            }
+
+        .text-center a {
+            color: #bb86fc; 
+        }
+
+            .text-center a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container cc">
+        <h1>Confirmation</h1>
+        <hr />
+        <div class="row">
+            <div class="col-md-6">
+                <p>Verification code sent. If you want to reset the password, click the button below:</p>
+                <form asp-action="ChangePassword" method="get">
+                    @Html.HiddenFor(model => model.Email)
+                    <input type="hidden" name="email" value="@Model.Email" />
+                    <input type="submit" value="Reset Password" class="btn btn-primary" />
+                    <a asp-action="Login" asp-controller="User">Back to List</a>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

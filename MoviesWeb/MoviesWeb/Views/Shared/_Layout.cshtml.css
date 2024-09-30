@@ -1,0 +1,75 @@
+﻿/* Custom styles to make navigation links visible on colorful backgrounds */
+.brandd, .linkk {
+    color: #ffc107 !important;
+    font-weight: bold;
+}
+
+.navv {
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+}
+
+.brandd {
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+
+.navv .linkk {
+    margin-left: 15px;
+    font-size: 1.2rem; 
+}
+
+.baner {
+    height: 100vh;
+    background-image: url(/images/movies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+    .baner:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      
+    }
+
+.baner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); 
+    z-index: 2; 
+}
+
+.baner h1 {
+    font-size: 4rem;
+}
+
+footer {
+    margin: 0 !important;
+    background-color: firebrick;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.btn-outline-danger {
+    color: firebrick;
+    border-color: firebrick;
+}
+
+    .btn-outline-danger:hover {
+        background-color: firebrick;
+        color: white;
+    }

@@ -1,0 +1,1236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\commentshow\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\commentshow\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\commentshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\commentshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\commentshow\\createcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\commentshow\\createcomment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\commentshow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\commentshow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\comment\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\comment\\rate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\comment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\comment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\comment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\comment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\comment\\comment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\comment\\comment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\trailer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\trailer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\watch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\watch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\user\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\user\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\user\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\user\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\commentshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\commentshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\showcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\showcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\moviesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\moviesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\showsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\showsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\ratingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\ratingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\moviesweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\moviesweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\cxsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\cxsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\buyshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\buyshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\commentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\commentshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\movie\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\movie\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\show\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\show\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\ratingviewmodelshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\ratingviewmodelshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\ticket\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\ticket\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\models\\buyticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\models\\buyticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|c:\\users\\marija\\source\\repos\\moviesweb\\moviesweb\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{F68FE9E5-B525-47A0-AD05-168B08BDE0B5}|MoviesWeb\\MoviesWeb.csproj|solutionrelative:moviesweb\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 295,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateComment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\CreateComment.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\CommentShow\\CreateComment.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\CreateComment.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\CommentShow\\CreateComment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T13:47:04.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Comment.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Comment\\Comment.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Comment.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Comment\\Comment.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T08:43:16.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Comment\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Edit.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Comment\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T13:13:33.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Comment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Create.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Comment\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:58:35.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Rate.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Comment\\Rate.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Comment\\Rate.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Comment\\Rate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T13:33:34.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\CommentShow\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\Edit.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\CommentShow\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T13:48:33.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\CommentShow\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\Index.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\CommentShow\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T09:06:12.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rate.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\Rate.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\CommentShow\\Rate.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\CommentShow\\Rate.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\CommentShow\\Rate.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwC4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T13:35:03.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Trailer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Trailer.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Trailer.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Trailer.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Trailer.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T12:41:49.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Show.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Show.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Show.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Show.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T07:10:54.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Watch.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Watch.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Watch.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Watch.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Watch.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T13:22:07.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Search.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Search.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Search.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Search.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T07:15:26.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\User\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\ChangePassword.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\User\\ChangePassword.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAF8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T09:26:54.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\User\\Confirmation.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\Confirmation.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\User\\Confirmation.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T13:33:53.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "MoviesWeb\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-22T06:39:03.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T06:39:05.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-06T12:33:11.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T08:29:10.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAQwLUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T06:47:19.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Edit.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Edit.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:16:43.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Index.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Index.cshtml",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAAAMcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T09:30:28.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAOAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T10:45:44.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VerifyEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\VerifyEmail.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\User\\VerifyEmail.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\User\\VerifyEmail.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\User\\VerifyEmail.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAQwFsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T09:23:16.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwGEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T06:35:12.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\TicketController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:49:59.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CommentShowController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\CommentShowController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\CommentShowController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\CommentShowController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\CommentShowController.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAD4v4EAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:17:35.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\CommentController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:27:31.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:27:31.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T11:15:01.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ShowController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\ShowController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\ShowController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\ShowController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\ShowController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T11:09:45.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAFsBAAAAAAAAAAAAAF8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T07:35:31.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Create.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Create.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwHUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:24:07.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:14:52.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\User.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:46:48.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T13:14:52.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Ticket\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Ticket\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Ticket\\Create.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Ticket\\Create.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T10:46:57.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T13:56:13.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Comment.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:28:06.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Edit.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Edit.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowHAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T08:11:58.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Program.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Program.cs",
+              "RelativeToolTip": "MoviesWeb\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAWwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T11:47:56.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Index.cshtml.css",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Index.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-23T11:55:32.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Create.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Create.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Create.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAIwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T09:32:43.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T06:43:57.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Delete.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T12:20:06.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Index.cshtml.css",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Index.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-23T09:30:42.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Genre.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:17:29.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Show.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\Show.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Show.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\Show.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:13:50.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ShowsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\ShowsViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\ShowsViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\ShowsViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\ShowsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:42:28.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MoviesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\MoviesViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\MoviesViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\MoviesViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\MoviesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:17:51.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Payment.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:46:11.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Movie.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T09:18:53.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RatingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\RatingViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\RatingViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\RatingViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\RatingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:27:09.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T07:10:19.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T08:10:48.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\Ticket.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:38:16.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Search.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Search.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Search.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Search.cshtml",
+              "ViewState": "AQIAAO8AAAAAAAAAAAASwAIBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T08:43:58.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Delete.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Delete.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T06:43:33.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Payment.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Payment.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Payment.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Payment.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T07:29:53.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "MoviesWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\appsettings.json",
+              "RelativeToolTip": "MoviesWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-22T11:47:54.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "MoviesWeb\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswCgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T06:24:40.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "MoviesWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\MoviesWeb.csproj",
+              "RelativeDocumentMoniker": "MoviesWeb\\MoviesWeb.csproj",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\MoviesWeb.csproj",
+              "RelativeToolTip": "MoviesWeb\\MoviesWeb.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-06T11:14:05.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CxSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\CxSettings.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\CxSettings.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\CxSettings.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\CxSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:28:05.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "VerifyEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\VerifyEmailViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\VerifyEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\VerifyEmailViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\VerifyEmailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T08:20:57.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T08:22:00.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BuyShow.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\BuyShow.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\BuyShow.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\BuyShow.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\BuyShow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:13:00.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:44:28.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CommentShow.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\CommentShow.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\CommentShow.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\CommentShow.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\CommentShow.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:03:39.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Buy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Buy.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Movie\\Buy.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Movie\\Buy.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Movie\\Buy.cshtml",
+              "ViewState": "AQIAAJQAAAAAAAAAAADwv6UAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T07:15:31.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Show.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Show\\Show.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Show\\Show.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Show\\Show.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T11:45:46.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "RatingViewModelShow.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\RatingViewModelShow.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\RatingViewModelShow.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\RatingViewModelShow.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\RatingViewModelShow.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAzwBEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:53:47.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Ticket\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Ticket\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Ticket\\Delete.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Ticket\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwC0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T11:15:38.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "BuyTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\BuyTicket.cs",
+              "RelativeDocumentMoniker": "MoviesWeb\\Models\\BuyTicket.cs",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Models\\BuyTicket.cs",
+              "RelativeToolTip": "MoviesWeb\\Models\\BuyTicket.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:30:19.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Ticket\\Index.cshtml",
+              "RelativeDocumentMoniker": "MoviesWeb\\Views\\Ticket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\Views\\Ticket\\Index.cshtml",
+              "RelativeToolTip": "MoviesWeb\\Views\\Ticket\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T10:52:44.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "MoviesWeb\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Marija\\source\\repos\\MoviesWeb\\MoviesWeb\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "MoviesWeb\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-08-22T06:40:36.743Z",
+              "EditorCaption": " -  [English (United States)] - Icon [32x32, 32 bit, BMP]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

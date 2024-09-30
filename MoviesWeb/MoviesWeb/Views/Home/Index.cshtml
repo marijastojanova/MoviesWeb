@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null; 
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login | Your App</title>
+    <meta name="description" content="Login to the system" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+    <link rel="shortcut icon" href="~/your_icon.ico" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            height: 100vh;
+            display: flex;
+        }
+
+        .button-container {
+            width: 40%;
+            background-color: #1e1e1e;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px; 
+            align-items: center;
+        }
+
+        .text {
+            color: white;
+            text-align: center;
+            font-size: 1.2rem; 
+            margin: 0; 
+        }
+
+     
+        .btn {
+            width:40%;
+            justify-content: center;
+            background-color: #ffc107;
+            color: #121212;
+            border: none;
+            border-radius: 10px;
+            padding: 15px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+            .btn:hover {
+                background-color: #121212;
+                color: #ffc107;
+            }
+
+        .image-column {
+            width: 60%; 
+            background-image: url('/images/movies.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .login-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-image: url(/images/movies.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1; 
+        }
+
+        h3, p {
+            position: relative;
+            z-index: 2;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <p class="text"> You already have an account?</p>
+        <a asp-action="Login" asp-controller="User" class="btn">Login</a>
+        <p class="text">
+            Or</br>
+            You are new here?
+        </p>
+        <a asp-action="Create" asp-controller="User" class="btn">Register</a>
+    </div>
+    <div class="login-content">
+        <div class="overlay"></div> 
+        <h3 class="display4 font-weight-bolder text-dark" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">MoviesWeb</h3>
+        <p class="font-weight-bolder text-dark opacity-70" style="color: #ffffff; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);">
+            Welcome! <br />
+        </p>
+    </div>
+</body>
+</html>

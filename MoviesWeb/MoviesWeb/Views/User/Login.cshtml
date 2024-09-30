@@ -1,0 +1,181 @@
+﻿
+@model MoviesWeb.Models.LoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login | Your App</title>
+    <meta name="description" content="Login to the system" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/plugins/global/plugins.bundle.css" />
+    <link rel="stylesheet" href="assets/css/style.bundle.css" />
+    <link rel="shortcut icon" href="~/your_icon.ico" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            height: 100vh;
+            display: flex;
+        }
+
+        .login-aside {
+            width: 40%;
+            background-color: #1e1e1e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .login-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background-image: url(/images/movies.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .login-form {
+            background-color: rgba(42, 42, 42, 0.9);
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            width: 800px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-control {
+            width: 100%; 
+            margin-bottom: 15px;
+            margin-top:5px;
+            padding: 15px 35px; 
+            border-radius: 5px;
+            border: 1px solid #555;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            transition: border 0.3s;
+        }
+
+            .form-control:focus {
+                border-color: #007bff; 
+                outline: none;
+            }
+
+        .button-group {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .text-dark {
+            color: #e0e0e0;
+        }
+
+        .remember-me-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        .form-check-label {
+            margin-left: 5px; 
+        }
+
+        .forgot-password {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+        }
+
+            .forgot-password:hover {
+                text-decoration: underline;
+            }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1; 
+        }
+
+        h3, p {
+            position: relative;
+            z-index: 2;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-aside">
+        <div class="login-form">
+            <h2 class="text-dark">Login</h2>
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" value="@Model.Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" type="password" class="form-control" value="@Model.Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="remember-me-group">
+                    <div class="form-check">
+                        <input asp-for="RememberMe" class="form-check-input" />
+                        <label class="form-check-label" for="RememberMe">
+                            @Html.DisplayNameFor(a => a.RememberMe)
+                        </label>
+                    </div>
+                    <a asp-action="VerifyEmail" class="forgot-password">Forgot password?</a>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn btn-outline-info">Login</button>
+                    <a asp-action="Create" class="btn btn-outline-primary">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="login-content">
+        <div class="overlay"></div> <!-- Add this overlay -->
+        <h3 class="display4 font-weight-bolder text-dark" style="color: #ffffff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">MoviesWeb</h3>
+        <p class="font-weight-bolder text-dark opacity-70" style="color: #ffffff; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);">
+            Welcome! <br />
+        </p>
+    </div>
+    <script src="assets/plugins/global/plugins.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+</body>
+</html>

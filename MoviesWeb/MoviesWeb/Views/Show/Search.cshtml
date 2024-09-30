@@ -1,0 +1,272 @@
+﻿
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MoviesWeb.styles.css" asp-append-version="true" />
+    @model IEnumerable<MoviesWeb.Models.Show>
+    @{
+        ViewData["Title"] = "Search";
+        var isAdmin = ViewData["IsAdmin"] as bool? ?? false;
+    }
+    
+
+    <style>
+        :root {
+            --card-bg-color: #1e1e1e;
+            --card-text-color: #fff;
+            --card-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            --overlay-bg: rgba(0, 0, 0, 0.4);
+            --btn-padding: 10px 20px;
+            --btn-margin: 5px;
+            --hero-bg-color: rgba(0, 0, 0, 0.6);
+            --btn-bg-color: #dc3545;
+            --btn-hover-bg-color: #c82333;
+            --btn-border-color: #dc3545;
+        }
+
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero {
+            background: var(--hero-bg-color);
+            padding: 50px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 0 0 15px 15px;
+        }
+
+            .hero h1 {
+                font-size: 3rem;
+                font-weight: bold;
+                color: #ffc107;
+                margin-bottom: 0.5rem;
+            }
+
+            .hero p {
+                font-size: 1.25rem;
+                color: #ddd;
+            }
+
+        .test {
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg-color);
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.3s, box-shadow 0.3s, height 0.3s;
+            overflow: hidden;
+            margin-bottom: 20px;
+            height: 500px;
+            width:400px;
+            margin-left: 60px;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5);
+            }
+
+        .card-img-top {
+            max-height: 500px;
+            object-fit: cover;
+            border-bottom: 3px solid #ffc107;
+        }
+
+        .card-img-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--overlay-bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 15px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .card:hover .card-img-overlay {
+            opacity: 1;
+        }
+
+        .card-body {
+            color: var(--card-text-color);
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-header, .card-footer {
+            background-color: #333;
+            color: var(--card-text-color);
+            text-align: center;
+        }
+
+        .btn {
+            margin: var(--btn-margin);
+            padding: var(--btn-padding);
+            white-space: nowrap;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .btn-danger {
+            background-color: var(--btn-bg-color);
+            border-color: var(--btn-border-color);
+        }
+
+            .btn-danger:hover {
+                background-color: var(--btn-hover-bg-color);
+                border-color: var(--btn-hover-bg-color);
+            }
+
+        .btn-outline-light {
+            color: #fff;
+            border-color: #fff;
+        }
+
+            .btn-outline-light:hover {
+                background-color: #fff;
+                color: #121212;
+            }
+
+        .d-flex {
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: var(--btn-margin);
+        }
+
+        .about-us {
+            background-color: #222;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-inline {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            gap: 10px;
+        }
+
+            .form-inline .form-control {
+                flex: 1;
+            }
+
+            .form-inline .btn {
+                white-space: nowrap;
+            }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid hero">
+            <h1>Explore the Best Shows</h1>
+            <p>Your next great movie adventure awaits</p>
+        </div>
+        <div class="container-fluid test">
+        <div class="row mb-3 align-items-center">
+            <div class="col-md-4">
+                <form method="get" action="@Url.Action("Index")" class="form-inline">
+                    <select name="genre" class="form-select" style="width: 150px;" onchange="this.form.submit()">
+                        <option value="">All Genres</option>
+                        <option value="1">Comedy</option>
+                        <option value="2">Action</option>
+                        <option value="3">Romance</option>
+                        <option value="4">SciFi</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-md-4 text-center">
+                <a asp-action="Index" asp-controller="Show" class="btn btn-danger">Series</a>
+                <a asp-action="Index" asp-controller="Movie" class="btn btn-danger">Movies</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a asp-action="Show" asp-controller="Movie" class="btn btn-danger">Shopping Cart</a>
+                <a asp-action="Trailer" asp-controller="Movie" class="btn btn-danger">My Movies</a>
+            </div>
+            <div class="col-md-4">
+                <form class="form-inline" method="get" action="@Url.Action("Search", "Show")">
+                    <input class="form-control" type="search" name="keyword" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                var base64Image = item.Img_url != null ? Convert.ToBase64String(item.Img_url) : null;
+                var imageSrc = base64Image != null ? $"data:image/jpeg;base64,{base64Image}" : "https://via.placeholder.com/150";
+
+                <div class="col-md-2 mb-2">
+                    <div class="card rounded">
+                        @if (item.Img_url != null && item.Img_url.Length > 0)
+                        {
+                            <img src="data:image;base64,@Convert.ToBase64String(item.Img_url)" class="card-img-top" alt="Movie Image">
+                        }
+                        <div class="card-img-overlay">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder">@item.Name</h5>
+                                <h6 class="card-subtitle text-muted">@item.Release_date.ToString("MMMM dd yyyy")</h6>
+                                <p class="card-text">
+                                    Duration: @item.Duration <br />
+                                    Amount: @item.Amount<br />
+                                    Genre: @item.Naziv
+                                </p>
+                                <div class="d-flex">
+                                    @if (ViewData["IsAdmin"] as bool? == true)
+                                    {
+                                        <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-info">Edit</a>
+                                        <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-warning">Delete</a>
+                                    }
+                                    @if (item.Status as bool? == true)
+                                    {
+                                        <p>Coming Soon</p>
+                                    }
+                                    else
+                                    {
+                                        <a href="@Url.Action("Buy", new { showId = item.Id })" class="btn btn-danger">Buy</a>
+                                        <a href="@Url.Action("Rate", "CommentShow", new { id = item.Id })" class="btn btn-danger">Comment</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="text-center mt-4">
+            @if (ViewData["IsAdmin"] as bool? == true)
+            {
+                <p>
+                    <a asp-action="Create" class="btn btn-danger">Create New</a>
+                </p>
+            }
+            <div class="container about-us">
+                <h2>About Us</h2>
+                <p>Welcome to MoviesWeb! We are passionate about bringing you the best movie experiences. Our platform provides information on a wide range of movies, including their genres, release dates, and more. Explore our site to find your next great movie adventure!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
